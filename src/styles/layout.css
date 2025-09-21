@@ -2,8 +2,7 @@
 
 /* Page-wide structures like containers, grid systems, header/footer layout */
 
-/* src/styles/layout.css */
-
+/* NavBar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -31,6 +30,15 @@
     text-decoration: underline;
 }
 
+/* Main Content */
+.mainContent {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-lg);
+    text-align: center;
+}
+
+/* Footer */
 .footer {
     text-align: center;
     background-color: black;

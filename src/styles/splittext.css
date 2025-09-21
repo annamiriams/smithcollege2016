@@ -1,0 +1,7 @@
+.split-char {
+    font-size: 8em;
+    /* maybe add important! here if needed; right now it's working fine without it */
+    font-family: var(--font-hearder);
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}

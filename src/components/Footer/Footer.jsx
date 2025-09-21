@@ -3,6 +3,7 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import SplitText from '../../components/SplitText/SplitText';
 
 const Footer = () => {
 
@@ -10,9 +11,24 @@ const Footer = () => {
         <>
             <section className='footer'>
 
-                <div>
+                {/* Static h1 if animation doesn't work */}
+                {/* <div>
                     <h1>SEE Y'ALL IN NOHO</h1>
-                </div>
+                </div> */}
+
+                <SplitText
+                    text="SEE Y'ALL IN NOHO"
+                    tag="h1"
+                    delay={100}
+                    duration={0.6}
+                    ease="power3.out"
+                    splitType="chars"
+                    from={{ opacity: 0, y: 40 }}
+                    to={{ opacity: 1, y: 0 }}
+                    threshold={0.1}
+                    rootMargin="-100px"
+                    textAlign="center"
+                />
 
                 <div className='footer-info'>
                     <div>
