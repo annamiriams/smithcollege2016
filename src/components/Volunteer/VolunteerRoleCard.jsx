@@ -1,9 +1,8 @@
 const VolunteerRoleCard = ({emoji, title, description }) => {
     return (
-        <div className="role-card">
+        <div>
             <h3>{title}</h3>
             <div className="description">
-
             <p>{description}</p>
             <p>~~~</p>
             </div>
