@@ -13,11 +13,11 @@ const Footer = () => {
 
                 {/* Static h1 if animation doesn't work */}
                 {/* <div>
-                    <h1>SEE Y'ALL IN NOHO</h1>
+                    <h1>See y'all in noho</h1>
                 </div> */}
 
                 <SplitText
-                    text="SEE Y'ALL IN NOHO"
+                    text="See y'all in noho"
                     tag="h1"
                     delay={100}
                     duration={0.6}
@@ -32,7 +32,7 @@ const Footer = () => {
 
                 <div className='footer-info'>
                     <div>
-                        <h3>SITEMAP</h3>
+                        <h3>Sitemap</h3>
                         <ul>
                             <li><Link to='/home'>Home</Link></li>
                             <li><Link to='/volunteer'>We Need You</Link></li>
@@ -41,11 +41,11 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h3>REUNION DATES</h3>
+                        <h3>Reunion Dates</h3>
                         <p>5/14/26 - 5/17/26</p>
                     </div>
                     <div>
-                        <h3>REGISTER</h3>
+                        <h3>Register</h3>
                         <p>More details coming soon…</p>
                     </div>
                 </div>
