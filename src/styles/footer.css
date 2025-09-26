@@ -1,0 +1,41 @@
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: var(--space-lg);
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .footer h1 {
+            margin-bottom: var(--space-lg);
+        }
+    
+        .footer h3 {
+            font-size: 1.5rem;
+        }
+    
+        .footer-info {
+            /* grid-template-columns: 1fr; */
+            gap: var(--space-md);
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        
+        .footer-info div {
+            padding: var(--space-sm);
+        }
+        .instagram-icon {
+            margin-top: var(--space-lg);
+        }
+    }

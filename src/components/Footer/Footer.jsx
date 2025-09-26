@@ -34,7 +34,7 @@ const Footer = () => {
                     <div>
                         <h3>Sitemap</h3>
                         <ul>
-                            <li><Link to='/home'>Home</Link></li>
+                            <li><Link to='/'>Home</Link></li>
                             <li><Link to='/volunteer'>We Need You</Link></li>
                             <li><Link to='/about'>About</Link></li>
                             <li><Link to='/contact'>Contact</Link></li>
@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div>
+                <div class="instagram-icon">
                     <a href='https://www.instagram.com/smithcollegeclassof2016' target="_blank" rel="noreferrer" aria-label="Instagram">
                         <FontAwesomeIcon icon={faInstagram} style={{ color: "#ffffff", fontSize: "2em" }} />
                     </a>

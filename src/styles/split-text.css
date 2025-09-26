@@ -5,3 +5,14 @@
     letter-spacing: -0.03em;
     color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .split-char {
+        font-size: 4em;
+        height: 1em;
+    }   
+    
+    h1 {
+        font-size: 4em;
+    }
+}
