@@ -13,6 +13,12 @@
     color: black;
 }
 
+.hamburger {
+    display: flex;
+    font-size: .8em;
+    
+}   
+
 /* Base style: hidden by default */
 .mobile-menu {
     position: fixed;
@@ -79,6 +85,7 @@
 .navbar-left a {
     color: black;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 .navbar-right {
@@ -110,9 +117,7 @@
         cursor: pointer;
     }
 
-    .hamburger {
-        display: flex;
-    }
+    
 
     .main-content {
         max-width: 95%;

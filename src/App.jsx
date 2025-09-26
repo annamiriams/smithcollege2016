@@ -5,11 +5,13 @@ import Contact from './components/Contact/Contact';
 import NavBar from './components/NavBar/NavBar';
 import Volunteer from './components/Volunteer/Volunteer';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
     return (
         <>
             <NavBar />
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
