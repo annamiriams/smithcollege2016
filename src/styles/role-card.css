@@ -1,14 +1,14 @@
 .member-card-container {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    margin-top: 20px;
-    gap: 20px;
+    justify-content: center;
+    margin: var(--space-lg);
+    gap: var(--space-lg);
 }
 
 .member-role-card {
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: var(--space-md);
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 30%;
@@ -17,6 +17,7 @@
 .member-role-card-header {
     padding: var(--space-lg);
     line-height: 1;
+    text-align: center;
 }
 
 .member-role-card p {
@@ -49,4 +50,37 @@
     object-fit: cover;
     border-radius: 10px;
     display: block;
+}
+
+@media (max-width: 768px) {
+    .member-image {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .member-card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--space-md);
+        margin: var(--space-md) 0;
+    }
+
+    .member-role-card {
+        width: 90%;
+        padding: var(--space-md);
+    }
+
+    .member-role-card h3 {
+        font-size: 1.5em;
+    }
+
+    .member-role-card h4 {
+        font-size: 1.2em;
+    }
+
+    .member-role-card p {
+        font-size: 1em;
+        padding: var(--space-sm) 0;
+    }
 }

@@ -33,7 +33,7 @@ const roles = [
 const Volunteer = () => {
     return (
         <div>
-            <h1>Volunteer</h1>
+            <h1 className="hero-h1">Volunteer</h1>
             <div className="main-content">
                 <VolunteerDescription />
                 {roles.map((role, index) => (

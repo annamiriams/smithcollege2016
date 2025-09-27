@@ -36,8 +36,8 @@ const members = [
 const About = () => {
     return (
         <div>
-            <h1>Your Class Cabinet</h1>
-            <div className="main-content member-card-container">
+            <h1 className="hero-h1">Your Class Cabinet</h1>
+            <div className="member-card-container">
                 {members.map((member, index) => (
                     <CabinetRoleCard
                         key={index}

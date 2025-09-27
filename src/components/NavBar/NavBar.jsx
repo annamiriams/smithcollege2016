@@ -38,7 +38,7 @@ const NavBar = () => {
                     &times;
                 </button>
                 <ul>
-                    <li><Link to="/home" onClick={closeMenu}>Home</Link></li>
+                    <li><Link to="/" onClick={closeMenu}>Home</Link></li>
                     <li><Link to="/volunteer" onClick={closeMenu}>We Need You</Link></li>
                     <li><Link to="/about" onClick={closeMenu}>About</Link></li>
                     <li><Link to="/contact" onClick={closeMenu}>Contact</Link></li>

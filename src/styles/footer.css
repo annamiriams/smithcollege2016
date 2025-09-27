@@ -3,39 +3,46 @@
     text-align: center;
     background-color: black;
     color: white;
-    padding-bottom: var(--space-lg);
+    padding: var(--space-md);
 }
 
 .footer-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
+    margin-top: var(--space-md);
 }
 
 .footer a {
     color: white;
 }
 
+.instagram-icon {
+    margin-bottom: var(--space-md);
+}
+
 @media (max-width: 768px) {
     .footer h1 {
-            margin-bottom: var(--space-lg);
-        }
-    
-        .footer h3 {
-            font-size: 1.5rem;
-        }
-    
-        .footer-info {
-            /* grid-template-columns: 1fr; */
-            gap: var(--space-md);
-            display: flex;
-            flex-direction: column-reverse;
-        }
-        
-        .footer-info div {
-            padding: var(--space-sm);
-        }
-        .instagram-icon {
-            margin-top: var(--space-lg);
-        }
+        margin-bottom: var(--space-md);
     }
+
+    .footer h3 {
+        font-size: 1.5rem;
+    }
+
+    .footer-info {
+        /* grid-template-columns: 1fr; */
+        gap: var(--space-md);
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .footer-info div {
+        padding: var(--space-sm);
+    }
+
+    .instagram-icon {
+        margin-top: var(--space-md);
+    }
+}

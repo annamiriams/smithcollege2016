@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div class="instagram-icon">
+                <div className="instagram-icon">
                     <a href='https://www.instagram.com/smithcollegeclassof2016' target="_blank" rel="noreferrer" aria-label="Instagram">
                         <FontAwesomeIcon icon={faInstagram} style={{ color: "#ffffff", fontSize: "2em" }} />
                     </a>

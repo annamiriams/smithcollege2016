@@ -4,6 +4,11 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--space-md) var(--space-lg);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .navbar-burger {
@@ -16,8 +21,8 @@
 .hamburger {
     display: flex;
     font-size: .8em;
-    
-}   
+
+}
 
 /* Base style: hidden by default */
 .mobile-menu {
@@ -38,8 +43,6 @@
 
     opacity: 0;
     transform: translateX(100%);
-    /* or */
-    /* transform: scale(0.95); */
     pointer-events: none;
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
@@ -116,8 +119,6 @@
         display: block;
         cursor: pointer;
     }
-
-    
 
     .main-content {
         max-width: 95%;
