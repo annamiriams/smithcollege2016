@@ -14,20 +14,24 @@ const roles = [
     },
     {
         title: 'House Connector Chair',
-        description: 'Recruits classmates from each house or campus area to serve as House Connectors and supports their outreach to boost attendance.'
+        description: 'Recruits classmates from each house or campus area to serve as House Connectors and supports their outreach to boost Reunion attendance.'
     },
     {
-        title: 'Logo and Theme Chair',
-        description: 'Develops our Reunion theme and custom logo. (Ideal: Graphic designer.)'
+        title: 'House Connector',
+        description: 'Recruits classmates from their Smith house to boost Reunion attendance.'
     },
+    // {
+    //     title: 'Logo and Theme Chair',
+    //     description: 'Develops our Reunion theme and custom logo. (Ideal: Graphic designer.)'
+    // },
     {
         title: 'Program Chair',
         description: 'Plans one to two programs for the weekend.'
     },
-    {
-        title: 'Reunion Souvenir Chair',
-        description: 'Selects a souvenir and handles ordering and delivery.'
-    }
+    // {
+    //     title: 'Reunion Souvenir Chair',
+    //     description: 'Selects a souvenir and handles ordering and delivery.'
+    // }
 ];
 
 const Volunteer = () => {
