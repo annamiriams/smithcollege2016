@@ -17,6 +17,8 @@
     display: flex;
     flex-direction: column;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* not sure if i want to keep this */
+    height: fit-content;
 }
 
 .card:hover {
@@ -26,7 +28,7 @@
 
 .card-image {
     width: 100%;
-    height: 350px;
+    height: 450px;
     object-fit: cover;
 }
 
@@ -54,11 +56,12 @@
     font-size: 0.95rem;
     font-style: italic;
     color: #777;
-    font-family: "Obviously Narrow", sans-serif;
+    font-family: var(--font-header);
 }
 
 .card-info {
-    font-family: "Obviously Narrow", sans-serif;
+    /* placeholder until we figure out logo */
+    font-family: arial; 
     font-size: 1rem;
     color: #333;
     line-height: 1.6;
@@ -75,7 +78,7 @@
     }
 
     .card-image {
-        height: 260px;
+        height: 320px;
     }
 
     .card-header h3 {
@@ -88,5 +91,10 @@
 
     .card-info {
         font-size: 0.95rem;
+    }
+
+    /* Shift crop focus downward; currently just used for Tia and Kristin's photos on mobile */
+    .card-image.adjust-crop-mobile {
+        object-position: 0% 30%;
     }
 }

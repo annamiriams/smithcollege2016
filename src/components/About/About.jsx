@@ -6,6 +6,7 @@ const members = [
         image: "alyssa-kaplan",
         name: "Alyssa Kaplan",
         pronouns: "she/her",
+        position: "Reunion Chair",
         house: "Talbot",
         major: "Math and Sociology minor",
         activities: "Smiffenpoofs",
@@ -16,6 +17,7 @@ const members = [
         image: "anna-steckel",
         name: "Anna Steckel",
         pronouns: "she/they",
+        position: "Reunion Chair",
         house: "Gardiner",
         major: "Psychology and Jewish Studies",
         activities: "Smiffenpoofs, SC Jewish Community, Gold Key",
@@ -26,12 +28,46 @@ const members = [
         image: "arielle-boucher",
         name: "Arielle Boucher",
         pronouns: "she/her",
+        position: "Reunion Chair",
         house: "Emerson",
         major: "Music and German Studies minor",
         activities: "Emerson House VP, Smiffenpoofs",
         sinceGraduation:
             "I live in New York City where I work supporting a research team at a biotech investment company. In my spare time, I take voice lessons, go to the theatre, and read.",
     },
+    {
+        image: "kristin-rivers",
+        name: "Kristin Rivers",
+        position: "Web Chair",
+        pronouns: "she/her",
+        house: "Chapin",
+        major: "English Language & Literature",
+        activities: "Intervarsity Christian Fellowship, Center for Religious & Spiritual Life reporter & photographer, Boutelle-Day Poetry Center intern, and MANNA Soup Kitchen volunteer",
+        sinceGraduation:
+            "I ran a personal writing blog, had work published by the Straw Dog Writers Guild and the Young Voices Project, and contributed to contests and showcases with Pen and Muse, Wordhaus, Short Fiction Break, and PowerfulU. I currently work as an editor for two weekly community newspapers and am an advocate for mental health/suicide prevention with the American Foundation for Suicide Prevention MA Chapter. I also became an aunt!",
+    },
+    {
+        image: "tia-karapoulios",
+        name: "Tia Karapoulios",
+        position: "Treasurer",
+        pronouns: "she/her",
+        house: "Morrow",
+        major: "Psychology/Exercise & Sport Studies",
+        activities: "Basketball team",
+        sinceGraduation:
+            "I coached Women’s College Basketball at Long Beach State and Saint Mary’s College and now work in Sports Tech at Teamworks.",
+    },
+    // {
+    //     image: "",
+    //     name: "",
+    //     position: "",
+    //     pronouns: "",
+    //     house: "",
+    //     major: "",
+    //     activities: "",
+    //     sinceGraduation:
+    //         "",
+    // },
 ];
 
 const About = () => {
