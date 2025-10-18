@@ -1,86 +1,92 @@
-.member-card-container {
+/* -- modern-cards.css -- */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: var(--space-lg);
-    gap: var(--space-lg);
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.member-role-card {
-    background-color: #f9f9f9;
-    padding: var(--space-md);
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 30%;
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 24px rgba(0, 0, 0, 0.1);
 }
 
-.member-role-card-header {
-    padding: var(--space-lg);
-    line-height: 1;
+.card-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-family: "Obviously", sans-serif;
     text-align: center;
 }
 
-.member-role-card p {
-    padding: var(--space-md);
-    text-align: left;
+.card-header h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
-.member-role-card h3 {
-    font-family: var(--font-header);
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-.member-role-card h4 {
-    font-family: var(--font-header);
-    font-size: 1.4em;
-    margin-bottom: 10px;
+.pronouns {
+    font-size: 0.95rem;
     font-style: italic;
+    color: #777;
+    font-family: "Obviously Narrow", sans-serif;
 }
 
-.member-role-card p {
-    font-family: var(--font-body);
-    font-size: 1em;
-    line-height: 1.5;
+.card-info {
+    font-family: "Obviously Narrow", sans-serif;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
 }
 
-.member-image {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-    border-radius: 10px;
-    display: block;
+.card-info p {
+    margin: 0.5rem 0;
 }
 
+/* Mobile tweaks */
 @media (max-width: 768px) {
-    .member-image {
-        width: 100%;
-        height: 350px;
-        object-fit: cover;
+    .card-content {
+        padding: 1.2rem;
     }
 
-    .member-card-container {
-        flex-direction: column;
-        align-items: center;
-        gap: var(--space-md);
-        margin: var(--space-md) 0;
+    .card-image {
+        height: 260px;
     }
 
-    .member-role-card {
-        width: 90%;
-        padding: var(--space-md);
+    .card-header h3 {
+        font-size: 1.3rem;
     }
 
-    .member-role-card h3 {
-        font-size: 1.5em;
+    .pronouns {
+        font-size: 0.9rem;
     }
 
-    .member-role-card h4 {
-        font-size: 1.2em;
-    }
-
-    .member-role-card p {
-        font-size: 1em;
-        padding: var(--space-sm) 0;
+    .card-info {
+        font-size: 0.95rem;
     }
 }

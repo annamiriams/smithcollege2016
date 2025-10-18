@@ -1,17 +1,31 @@
-const CabinetRoleCard = ({image, name, pronouns, house, major, activities, sinceGraduation }) => {
+// src/components/About/CabinetRoleCard.jsx
+
+const CabinetRoleCard = ({
+    image,
+    name,
+    pronouns,
+    house,
+    major,
+    activities,
+    sinceGraduation,
+}) => {
     return (
-        <div className="member-role-card">
-            <img src={`/${image}.jpg`} alt={`${name}'s photo`} className="member-image"/>
-            <div className="member-role-card-header">
-                <h3>{name}</h3>
-                <h4>{pronouns}</h4>
+        <div className="card">
+            <img src={`/${image}.jpg`} alt={`${name}'s photo`} className="card-image" />
+            <div className="card-content">
+                <div className="card-header">
+                    <h3>{name}</h3>
+                    <span className="pronouns">{pronouns}</span>
+                </div>
+                <div className="card-info">
+                    <p><strong>House:</strong> {house}</p>
+                    <p><strong>Major:</strong> {major}</p>
+                    <p><strong>Activities:</strong> {activities}</p>
+                    <p><strong>Since Graduation:</strong> {sinceGraduation}</p>
+                </div>
             </div>
-            <p><b>House:</b> {house}</p>
-            <p><b>Major:</b> {major}</p>
-            <p><b>Activities:</b> {activities}</p>
-            <p><b>Since graduation:</b> {sinceGraduation}</p>
         </div>
-    )
+    );
 };
 
 export default CabinetRoleCard;
