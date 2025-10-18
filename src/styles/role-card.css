@@ -78,7 +78,7 @@
     }
 
     .card-image {
-        height: 320px;
+        height: 450px;
     }
 
     .card-header h3 {
@@ -91,10 +91,5 @@
 
     .card-info {
         font-size: 0.95rem;
-    }
-
-    /* Shift crop focus downward; currently just used for Tia and Kristin's photos on mobile */
-    .card-image.adjust-crop-mobile {
-        object-position: 0% 30%;
     }
 }
