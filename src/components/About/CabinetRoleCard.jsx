@@ -24,7 +24,7 @@ const CabinetRoleCard = ({
                 </div>
                 <div className="card-info">
                     <p><strong>House:</strong> {house}</p>
-                    <p><strong>Position:</strong> {house}</p>
+                    <p><strong>Position:</strong> {position}</p>
                     <p><strong>Major:</strong> {major}</p>
                     <p><strong>Activities:</strong> {activities}</p>
                     <p><strong>Since Graduation:</strong> {sinceGraduation}</p>

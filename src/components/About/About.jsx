@@ -47,6 +47,17 @@ const members = [
             "I ran a personal writing blog, had work published by the Straw Dog Writers Guild and the Young Voices Project, and contributed to contests and showcases with Pen and Muse, Wordhaus, Short Fiction Break, and PowerfulU. I currently work as an editor for two weekly community newspapers and am an advocate for mental health/suicide prevention with the American Foundation for Suicide Prevention MA Chapter. I also became an aunt!",
     },
     {
+        image: "nat-belkov",
+        name: "Nat Belkov",
+        position: "Logo & Theme Chair",
+        pronouns: "they/he",
+        house: "Jordan",
+        major: "Architecture & Urbanism",
+        activities: "Athletic Association, Noteables",
+        sinceGraduation:
+            "I moved to NYC and designed with a few agencies before landing in media where I am now, creating director for Vox's food and bev publications, Eater, Punch, and Thrillist. ",
+    },
+    {
         image: "tia-karapoulios",
         name: "Tia Karapoulios",
         position: "Treasurer",
@@ -57,6 +68,50 @@ const members = [
         sinceGraduation:
             "I coached Women’s College Basketball at Long Beach State and Saint Mary’s College and now work in Sports Tech at Teamworks.",
     },
+    // {
+    //     image: "lena-wilson",
+    //     name: "Lena Wilson",
+    //     position: "Program Chair",
+    //     pronouns: "",
+    //     house: "",
+    //     major: "",
+    //     activities: "",
+    //     sinceGraduation:
+    //         "",
+    // },
+    // {
+    //     image: "elise-parisian",
+    //     name: "Elise Parisian",
+    //     position: "Program Chair",
+    //     pronouns: "",
+    //     house: "",
+    //     major: "",
+    //     activities: "",
+    //     sinceGraduation:
+    //         "",
+    // },
+    // {
+    //     image: "celine-rosak",
+    //     name: "Celine Rosak",
+    //     position: "Souvenir Chair",
+    //     pronouns: "",
+    //     house: "Gardiner",
+    //     major: "",
+    //     activities: "",
+    //     sinceGraduation:
+    //         "",
+    // },
+    // {
+    //     image: "",
+    //     name: "",
+    //     position: "",
+    //     pronouns: "",
+    //     house: "",
+    //     major: "",
+    //     activities: "",
+    //     sinceGraduation:
+    //         "",
+    // },
     // {
     //     image: "",
     //     name: "",
