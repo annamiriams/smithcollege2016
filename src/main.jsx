@@ -1,5 +1,3 @@
-console.log('✅ MAIN.JSX IS LOADED');
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

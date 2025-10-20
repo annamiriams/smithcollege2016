@@ -1,5 +1,6 @@
 // src/components/Volunteer/Volunteer.jsx
 
+import { Link } from 'react-router-dom';
 import VolunteerDescription from './VolunteerDescription';
 import VolunteerRoleCard from './VolunteerRoleCard';
 
@@ -24,10 +25,10 @@ const roles = [
     //     title: 'Logo and Theme Chair',
     //     description: 'Develops our Reunion theme and custom logo. (Ideal: Graphic designer.)'
     // },
-    {
-        title: 'Program Chair',
-        description: 'Plans one to two programs for the weekend.'
-    },
+    // {
+    //     title: 'Program Chair',
+    //     description: 'Plans one to two programs for the weekend.'
+    // },
     // {
     //     title: 'Reunion Souvenir Chair',
     //     description: 'Selects a souvenir and handles ordering and delivery.'
@@ -39,12 +40,25 @@ const Volunteer = () => {
         <div>
             <h1 className="hero-h1">Volunteer</h1>
             <div className="main-content">
-                <VolunteerDescription />
-                {roles.map((role, index) => (
-                    <VolunteerRoleCard key={index} title={role.title} description={role.description} />
-                ))}
+
+                <section>
+                    <VolunteerDescription />
+                </section>
+
+                <section className="volunteer-roles">
+                    {roles.map((role, index) => (
+                        <VolunteerRoleCard key={index} title={role.title} description={role.description} />
+                    ))}
+                </section>
+
+                <section className="volunteer-cta">
+                    <p>Interested in joining us?</p>
+                    <Link className="button" to="/contact">Reach Out</Link>
+                </section>
+
             </div>
         </div>
+
     );
 }
 

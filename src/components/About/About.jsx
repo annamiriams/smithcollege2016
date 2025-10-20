@@ -55,7 +55,7 @@ const members = [
         major: "Architecture & Urbanism",
         activities: "Athletic Association, Noteables",
         sinceGraduation:
-            "I moved to NYC and designed with a few agencies before landing in media where I am now, creating director for Vox's food and bev publications, Eater, Punch, and Thrillist. ",
+            "I moved to NYC and designed with a few agencies before landing in media where I am now creative director for Vox's food and bev publications, Eater, Punch, and Thrillist.",
     },
     {
         image: "tia-karapoulios",

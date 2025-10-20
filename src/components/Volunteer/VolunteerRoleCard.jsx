@@ -1,14 +1,11 @@
-const VolunteerRoleCard = ({emoji, title, description }) => {
+const VolunteerRoleCard = ({ title, description }) => {
     return (
-        <div>
+        <div className="role-card">
             <h3>{title}</h3>
-            <div className="description">
             <p>{description}</p>
-            <p>~~~</p>
-            </div>
         </div>
-    )
-
+    );
 };
+
 
 export default VolunteerRoleCard;
