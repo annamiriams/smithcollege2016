@@ -23,8 +23,8 @@ const CabinetRoleCard = ({
                     <span className="pronouns">{pronouns}</span>
                 </div>
                 <div className="card-info">
-                    <p><strong>House:</strong> {house}</p>
                     <p><strong>Position:</strong> {position}</p>
+                    <p><strong>House:</strong> {house}</p>
                     <p><strong>Major:</strong> {major}</p>
                     <p><strong>Activities:</strong> {activities}</p>
                     <p><strong>Since Graduation:</strong> {sinceGraduation}</p>

@@ -5,10 +5,10 @@ import VolunteerDescription from './VolunteerDescription';
 import VolunteerRoleCard from './VolunteerRoleCard';
 
 const roles = [
-    {
-        title: 'Alumnae Parade Chair',
-        description: 'Writes the iconic parade signs and manages parade logistics.'
-    },
+    // {
+    //     title: 'Alumnae Parade Chair',
+    //     description: 'Writes the iconic parade signs and manages parade logistics.'
+    // },
     {
         title: 'Headquarters Chair',
         description: 'Decorates class headquarters, arranges refreshments, and creates a welcoming space. (Ideal: Someone local or with a car.)'
@@ -52,7 +52,7 @@ const Volunteer = () => {
                 </section>
 
                 <section className="volunteer-cta">
-                    <p>Interested in joining us?</p>
+                    <p>Interested in joining <Link to="/about" className="visible-link">the team</Link>?</p>
                     <Link className="button" to="/contact">Reach Out</Link>
                 </section>
 

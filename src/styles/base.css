@@ -59,3 +59,13 @@ a:hover {
 li {
     list-style: none;
 }
+
+.visible-link {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: underline;
+}
+
+.visible-link:hover {
+    color: blue;
+}
