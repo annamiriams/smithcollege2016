@@ -47,6 +47,17 @@ const members = [
             "I moved to Seattle, where I discovered the wild world of tech and now work as a marketing director. In my spare time I like picking up new skills—current pursuits include making beeswax taper candles and trying not to cry while skiing. I love spending time over good food with great friends.",
     },
     {
+        image: "elise-parisian",
+        name: "Elise Parisian",
+        position: "Program Chair",
+        pronouns: "Any",
+        house: "Sessions/Friedman Apartment",
+        major: "Studio Art",
+        activities: "Students for Social Justice and Institutional Change (SSJIC), worked at the campus Art supply store and in town at Urban Outfitters",
+        sinceGraduation:
+            "I have been living in Chicago with my wife and dogs and fill my time with a multitude of things. I work as a relationship/couples therapist and as adjunct faculty at The Family Institute/Northwestern University, host Unspookable - a podcast for children about playground folklore, and have been increasingly invested in learning to play the fiddle and getting involved in the Old Time music scene.",
+    },
+    {
         image: "kristin-rivers",
         name: "Kristin Rivers",
         position: "Web Chair",
@@ -101,18 +112,6 @@ const members = [
         sinceGraduation:
             "I coached Women’s College Basketball at Long Beach State and Saint Mary’s College and now work in Sports Tech at Teamworks.",
     },
-
-    // {
-    //     image: "elise-parisian",
-    //     name: "Elise Parisian",
-    //     position: "Program Chair",
-    //     pronouns: "",
-    //     house: "",
-    //     major: "",
-    //     activities: "",
-    //     sinceGraduation:
-    //         "",
-    // },
     // {
     //     image: "",
     //     name: "",
