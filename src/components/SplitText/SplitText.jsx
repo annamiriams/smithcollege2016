@@ -89,7 +89,13 @@ const SplitText = ({
                             scrollTrigger: {
                                 trigger: el,
                                 start,
-                                once: true,
+                                // once: true,
+                                toggleActions: 'play none none reset',
+                                    // 'onEnter onLeave onEnterBack onLeaveBack'
+                                    // play - when scrolled into view
+                                    // none - on leaving viewport (no action)
+                                    // none - on re-entering viewport (no action)
+                                    // reset - on leaving viewport back to top
                                 fastScrollEnd: true,
                                 anticipatePin: 0.4
                             },

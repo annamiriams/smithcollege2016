@@ -12,11 +12,13 @@ const CabinetRoleCard = ({
 }) => {
     return (
         <div className="card">
-            <img 
-                src={`/${image}.jpg`} 
-                alt={`${name}'s photo`}
-                className={`card-image`} 
+            <div class="card-image-wrapper">
+                <img
+                    src={`/${image}.jpg`}
+                    alt={`${name}'s photo`}
+                    className={`card-image`}
                 />
+            </div>
             <div className="card-content">
                 <div className="card-header">
                     <h3>{name}</h3>

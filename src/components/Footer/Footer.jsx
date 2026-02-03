@@ -35,7 +35,7 @@ const Footer = () => {
                         <h3>Sitemap</h3>
                         <ul>
                             <li><Link to='/'>Home</Link></li>
-                            <li><Link to='/reunion-details'>Reunion Details</Link></li>
+                            <li><Link to='/faq'>FAQ</Link></li>
                             <li><Link to='/volunteer'>Volunteer</Link></li>
                             <li><Link to='/class-cabinet'>Class Cabinet</Link></li>
                             <li><Link to='/contact'>Contact</Link></li>
@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <h3>Register</h3>
-                        <p>More details <Link to='/details' style={{ color: "#1789FC" }}>here</Link>.</p>
+                        <p>More details <Link to='/faq' style={{ color: "#1789FC" }}>here</Link>.</p>
                     </div>
                 </div>
 

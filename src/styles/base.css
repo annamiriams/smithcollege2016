@@ -14,7 +14,8 @@ body {
 /* Global body styles */
 body {
     font-family: var(--font-body2);
-    font-size: 1.6em;
+    font-size: 1.8em;
+    font-weight: 300;
 }
 
 /* Typography */

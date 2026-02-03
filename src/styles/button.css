@@ -4,7 +4,8 @@
     text-decoration: none;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: var(--font-body);
+    font-family: var(--font-header2);
+    letter-spacing: 1.5px;
     border-radius: 100px;
     border: 1px solid black;
     width: fit-content;
@@ -23,7 +24,7 @@
 }
 
 .contact-form button {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     padding: var(--space-sm) var(--space-lg);
 }
 
