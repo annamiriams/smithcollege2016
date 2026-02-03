@@ -59,7 +59,6 @@ iframe {
     margin-top: var(--space-lg);
 }
 
-
 .details-container,
 .volunteer-roles {
     display: flex;
@@ -84,7 +83,6 @@ iframe {
     max-width: 700px;
     margin: 0 auto;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    
 }
 
 .role-card h3 {
@@ -101,6 +99,7 @@ iframe {
     margin-bottom: var(--space-md);
     line-height: 1.5;
     font-size: 1.1rem;
+    max-width: 100%;
 }
 
 .cost-table {
@@ -128,6 +127,13 @@ iframe {
     padding-top: var(--space-md);
 }
 
+.primary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-md) var(--space-lg);
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .main-content {
         max-width: 90%;
@@ -139,8 +145,10 @@ iframe {
     }
 
     .hero-h1 {
-        font-size: 3.4rem;
+        font-size: 5.4rem;
         line-height: 1;
+        padding: 0;
+        margin-top: var(--space-lg);
     }
 
     .main-content h2 {
@@ -168,12 +176,20 @@ iframe {
     }
 
     .description {
-        margin: var(--space-lg) auto;
+        margin: var(--space-sm) auto;
+    }
+
+    .volunteer {
+        font-size: 4em;
     }
 
     .reunion-details {
         padding: var(--space-md) 0;
         margin: var(--space-lg) 0;
+    }
+
+    .cost-table {
+        width: 90%;
     }
 
     iframe {

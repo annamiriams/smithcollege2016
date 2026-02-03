@@ -93,11 +93,12 @@
 
 .navbar-right a {
     font-size: 1.2em;
+    text-decoration: underline;
 }
 
 .navbar-right {
     display: flex;
-    gap: var(--space-md);
+    gap: var(--space-lg);
 }
 
 .navbar-right a {

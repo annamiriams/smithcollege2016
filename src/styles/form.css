@@ -1,8 +1,8 @@
-.contact {
+/* .contact {
     max-width: 700px;
     margin: 0 auto;
     padding: var(--space-lg);
-}
+} */
 
 .contact-form {
     background: #fff;
@@ -82,5 +82,9 @@
 
     .contact-form {
         padding: var(--space-md);
+    }
+
+    .contact {
+        font-size: 4.8em;
     }
 }

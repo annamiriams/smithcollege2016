@@ -42,69 +42,71 @@ const Contact = () => {
     };
 
     return (
-        <div className="contact">
-            <h1 className="hero-h1">Reach Out</h1>
+        <div>
+            <h1 className="hero-h1 contact">Contact</h1>
+            <div className="primary-container">
 
-            <form
-                className="contact-form"
-                name="contact"
-                method="POST"
-                data-netlify="true"
-                netlify-honeypot="bot-field"
-                onSubmit={handleSubmit}
-            >
-                {/* Required hidden inputs */}
-                <input type="hidden" name="form-name" value="contact" />
-                <input type="hidden" name="bot-field" />
+                <form
+                    className="contact-form"
+                    name="contact"
+                    method="POST"
+                    data-netlify="true"
+                    netlify-honeypot="bot-field"
+                    onSubmit={handleSubmit}
+                >
+                    {/* Required hidden inputs */}
+                    <input type="hidden" name="form-name" value="contact" />
+                    <input type="hidden" name="bot-field" />
 
-                <div className="form-row">
-                    <div className="form-field">
-                        <label>Name:</label>
-                        <input
-                            name="name"
-                            type="text"
-                            value={name}
-                            onChange={(e) => setName(e.target.value)}
-                            required
-                        />
+                    <div className="form-row">
+                        <div className="form-field">
+                            <label>Name:</label>
+                            <input
+                                name="name"
+                                type="text"
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                                required
+                            />
+                        </div>
+
+                        <div className="form-field">
+                            <label>Email:</label>
+                            <input
+                                name="email"
+                                type="email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                required
+                            />
+                        </div>
+
+                        <div className="form-field">
+                            <label>Message:</label>
+                            <textarea
+                                name="message"
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
+                                required
+                            />
+                        </div>
                     </div>
 
-                    <div className="form-field">
-                        <label>Email:</label>
-                        <input
-                            name="email"
-                            type="email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            required
-                        />
+                    <div className="button-container">
+                        <button type="submit">Send</button>
                     </div>
 
-                    <div className="form-field">
-                        <label>Message:</label>
-                        <textarea
-                            name="message"
-                            value={message}
-                            onChange={(e) => setMessage(e.target.value)}
-                            required
-                        />
-                    </div>
-                </div>
+                    {status === "success" && (
+                        <p className="success-message">Sent!</p>
+                    )}
 
-                <div className="button-container">
-                    <button type="submit">Send</button>
-                </div>
-
-                {status === "success" && (
-                    <p className="success-message">Sent!</p>
-                )}
-
-                {status === "error" && (
-                    <p className="error-message">
-                        Something went wrong. Please try again.
-                    </p>
-                )}
-            </form>
+                    {status === "error" && (
+                        <p className="error-message">
+                            Something went wrong. Please try again.
+                        </p>
+                    )}
+                </form>
+            </div>
         </div>
     );
 };

@@ -140,7 +140,7 @@ const members = [
 const About = () => {
     return (
         <div>
-            <h1 className="hero-h1">Your Class Cabinet</h1>
+            <h1 className="hero-h1">Class Cabinet</h1>
             <div className="card-container">
                 {members.map((member, index) => (
                     <CabinetRoleCard key={index} {...member} />

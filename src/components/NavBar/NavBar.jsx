@@ -26,9 +26,9 @@ const NavBar = () => {
                 </div>
 
                 <div className="navbar-right">
-                    <Link to="/details">Reunion Details</Link>
+                    <Link to="/reunion-details">Reunion Details</Link>
                     <Link to="/volunteer">Volunteer</Link>
-                    <Link to="/about">About</Link>
+                    <Link to="/class-cabinet">Class Cabinet</Link>
                     <Link to="/contact">Contact</Link>
                 </div>
             </nav>
@@ -40,9 +40,9 @@ const NavBar = () => {
                 </button>
                 <ul>
                     <li><Link to="/" onClick={closeMenu}>Home</Link></li>
-                    <li><Link to="/details" onClick={closeMenu}>Reunion Details</Link></li>
+                    <li><Link to="/reunion-details" onClick={closeMenu}>Reunion Details</Link></li>
                     <li><Link to="/volunteer" onClick={closeMenu}>Volunteer</Link></li>
-                    <li><Link to="/about" onClick={closeMenu}>About</Link></li>
+                    <li><Link to="/class-cabinet" onClick={closeMenu}>Class Cabinet</Link></li>
                     <li><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
                 </ul>
             </div>

@@ -38,24 +38,26 @@ const roles = [
 const Volunteer = () => {
     return (
         <div>
-            <h1 className="hero-h1">Volunteer</h1>
-            <div className="main-content">
+            <h1 className="hero-h1 volunteer">Volunteer</h1>
+            <div className="primary-container">
+                <div className="main-content">
 
-                <section>
-                    <VolunteerDescription />
-                </section>
+                    <section>
+                        <VolunteerDescription />
+                    </section>
 
-                <section className="volunteer-roles">
-                    {roles.map((role, index) => (
-                        <VolunteerRoleCard key={index} title={role.title} description={role.description} />
-                    ))}
-                </section>
+                    <section className="volunteer-roles">
+                        {roles.map((role, index) => (
+                            <VolunteerRoleCard key={index} title={role.title} description={role.description} />
+                        ))}
+                    </section>
 
-                <section className="volunteer-cta">
-                    <p>Interested in joining <Link to="/about" className="visible-link">the team</Link>?</p>
-                    <Link className="button" to="/contact">Reach Out</Link>
-                </section>
+                    <section className="volunteer-cta">
+                        <p>Interested in joining <Link to="/about" className="visible-link">the team</Link>?</p>
+                        <Link className="button" to="/contact">Reach Out</Link>
+                    </section>
 
+                </div>
             </div>
         </div>
 
