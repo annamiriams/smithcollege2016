@@ -1,12 +1,12 @@
-/* ------------------------------
-   Base Layout Styles
------------------------------- */
-
 .main-content {
     max-width: 80%;
     margin: 0 auto;
-    padding: var(--space-lg);
+    padding: var(--space-md) var(--space-lg);
     text-align: center;
+}
+
+.main-content section {
+    margin-bottom: var(--space-lg);
 }
 
 .main-content h1 {
@@ -24,12 +24,11 @@
 }
 
 .main-content h3 {
-    font-size: 2rem;
     margin-bottom: var(--space-xs);
 }
 
 .main-content p {
-    font-size: 1.2rem;
+    font-size: 1.4em;
     margin: 0 auto var(--space-sm);
     line-height: 1.6;
     max-width: 60ch;
@@ -47,11 +46,11 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-sm);
-    padding-bottom: var(--space-xl);
+    padding-bottom: var(--space-lg);
 }
 
 .reunion-details {
-    padding: var(--space-md) 0;
+    padding: var(--space-lg) 0;
 }
 
 iframe {
@@ -60,11 +59,13 @@ iframe {
     margin-top: var(--space-lg);
 }
 
+
+.details-container,
 .volunteer-roles {
     display: flex;
     flex-direction: column;
-    gap: var(--space-lg);
-    margin-bottom: var(--space-xl);
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
 }
 
 .volunteer-cta p {
@@ -72,37 +73,69 @@ iframe {
     margin-bottom: var(--space-md);
 }
 
+.detail-card,
 .role-card {
     border: 1px solid #ccc;
     border-radius: 12px;
     padding: var(--space-md);
     text-align: left;
     background-color: #fafafa;
+    width: 100%;
     max-width: 700px;
     margin: 0 auto;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    
 }
 
 .role-card h3 {
     margin-bottom: var(--space-xs);
 }
 
-.role-card p {
-    margin: 0;
-    line-height: 1.5;
+.detail-card h4 {
+    margin-bottom: var(--space-md);
 }
 
-/* ------------------------------
-   Mobile Styles
------------------------------- */
+.detail-card p,
+.role-card p {
+    margin: 0;
+    margin-bottom: var(--space-md);
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.cost-table {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    border-collapse: collapse;
+}
+
+.cost-table td {
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cost-table td:last-child {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.cost-table .total-row td {
+    font-weight: bold;
+    border-top: 2px solid #333;
+    border-bottom: none;
+    padding-top: var(--space-md);
+}
+
 @media (max-width: 768px) {
     .main-content {
         max-width: 90%;
-        padding: 0 var(--space-md);
+        padding: var(--space-md);
     }
 
     .main-content h1 {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 
     .hero-h1 {
@@ -119,9 +152,13 @@ iframe {
     }
 
     .main-content p {
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
         max-width: 95%;
         padding: var(--space-sm) 0;
+    }
+
+    .main-content section {
+        margin-bottom: var(--space-md);
     }
 
     .home-hero {

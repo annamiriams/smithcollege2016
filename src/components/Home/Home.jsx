@@ -4,13 +4,11 @@ const Home = () => {
 
     return (
         <div className="main-content">
-            {/* <h1>SMITHIES</h1> */}
             <div className="home-hero">
                 <h1>Reunion</h1>
                 <h1>2026</h1>
             </div>
-            {/* <h2>It's nearly time</h2> */}
-            <div>
+            <div className="reunion-details">
                 <p className="description">This isn’t a drill. We’re heading back to Noho—IRL this time. That’s right: we’re leaving our apartments, putting on pants with actual zippers, and talking to each other in person.</p>
             </div>
             <div className="reunion-details">

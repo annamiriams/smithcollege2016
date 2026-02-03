@@ -26,7 +26,8 @@ const NavBar = () => {
                 </div>
 
                 <div className="navbar-right">
-                    <Link to="/volunteer">We Need You</Link>
+                    <Link to="/details">Reunion Details</Link>
+                    <Link to="/volunteer">Volunteer</Link>
                     <Link to="/about">About</Link>
                     <Link to="/contact">Contact</Link>
                 </div>
@@ -39,7 +40,8 @@ const NavBar = () => {
                 </button>
                 <ul>
                     <li><Link to="/" onClick={closeMenu}>Home</Link></li>
-                    <li><Link to="/volunteer" onClick={closeMenu}>We Need You</Link></li>
+                    <li><Link to="/details" onClick={closeMenu}>Reunion Details</Link></li>
+                    <li><Link to="/volunteer" onClick={closeMenu}>Volunteer</Link></li>
                     <li><Link to="/about" onClick={closeMenu}>About</Link></li>
                     <li><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
                 </ul>

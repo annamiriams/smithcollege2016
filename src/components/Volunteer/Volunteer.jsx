@@ -13,10 +13,10 @@ const roles = [
         title: 'Headquarters Chair',
         description: 'Decorates class headquarters, arranges refreshments, and creates a welcoming space. (Ideal: Someone local or with a car.)'
     },
-    {
-        title: 'House Connector Chair',
-        description: 'Recruits classmates from each house or campus area to serve as House Connectors and supports their outreach to boost Reunion attendance.'
-    },
+    // {
+    //     title: 'House Connector Chair',
+    //     description: 'Recruits classmates from each house or campus area to serve as House Connectors and supports their outreach to boost Reunion attendance.'
+    // },
     {
         title: 'House Connector',
         description: 'Recruits classmates from their Smith house to boost Reunion attendance.'

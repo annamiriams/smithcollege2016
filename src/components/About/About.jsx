@@ -3,6 +3,17 @@ import CabinetRoleCard from './CabinetRoleCard';
 
 const members = [
     {
+        image: "afiya-johnsonthornton",
+        name: "Afiya Johnson-Thornton",
+        position: "House Connector Chair",
+        pronouns: "she/her",
+        house: "Baldwin & Haven/Wesley",
+        major: "Anthropology & Religion minor",
+        activities: "Res Life, WOZQ",
+        sinceGraduation:
+            "After a few years in Philly after Smith, I moved to NYC, where I’ve been for eight years. I bounced around college admissions, education research, education technology, and now, have the joy of working with several Smithies as the educational technology director at Kaplan Educational Foundation. I recently rediscovered a love of nonfiction writing, so now I spend my free time convening a virtual Queer Writing Group. I live in Brooklyn with my fiancée and our cat, Shark.",
+    },
+    {
         image: "alyssa-kaplan",
         name: "Alyssa Kaplan",
         pronouns: "she/her",
@@ -14,7 +25,7 @@ const members = [
             "I live in Boston with my husband. I worked in consulting for five years, and now work as a school psychologist in a K-4 school. In my spare time, I love playing soccer and pickleball, reading books, and spending time with friends and family.",
     },
     {
-        image: "anna-steckel",
+        image: "anna-steckel-1",
         name: "Anna Steckel",
         pronouns: "she/they",
         position: "Reunion Chair",
@@ -22,7 +33,7 @@ const members = [
         major: "Psychology & Jewish Studies",
         activities: "Smiffenpoofs, SC Jewish Community, Gold Key, House Council",
         sinceGraduation:
-            "I live in Portland with my spouse and our two cats. I work in the mental health field and spend my time outside of work birdwatching, reading, and cooking.",
+            "I live in Portland, Oregon with my spouse and our two cats. I work in the mental health field and on the side do freelance web developement. Outside of work, I spend my time birdwatching, reading, trying out new recipes, and knitting.",
     },
     {
         image: "arielle-boucher",
@@ -112,17 +123,7 @@ const members = [
         sinceGraduation:
             "I coached Women’s College Basketball at Long Beach State and Saint Mary’s College and now work in Sports Tech at Teamworks.",
     },
-    // {
-    //     image: "",
-    //     name: "",
-    //     position: "",
-    //     pronouns: "",
-    //     house: "",
-    //     major: "",
-    //     activities: "",
-    //     sinceGraduation:
-    //         "",
-    // },
+    
     // {
     //     image: "",
     //     name: "",

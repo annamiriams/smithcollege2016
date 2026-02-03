@@ -1,5 +1,3 @@
-/* src/styles/base.css */
-
 /* Reset */
 * {
     margin: 0;
@@ -15,7 +13,7 @@ body {
 
 /* Global body styles */
 body {
-    font-family: var(--font-body);
+    font-family: var(--font-body2);
     font-size: 1.6em;
 }
 
@@ -23,14 +21,16 @@ body {
 h1,
 h2,
 h3 {
-    font-family: var(--font-heading);
-    letter-spacing: -0.05em;
+    font-family: var(--font-header2);
+    /* font-family: Crumb, sans-serif; */
+    /* letter-spacing: -0.05em; */
     text-transform: uppercase;
 }
 
 h1 {
     font-size: 6.8rem;
     font-weight: 900;
+    letter-spacing: 2px;
     text-align: center;
     margin: var(--space-sm);
     line-height: 1;
@@ -41,15 +41,22 @@ h2 {
 }
 
 h3 {
-    font-size: 2.3rem;
+    font-size: 2.8rem;
+    letter-spacing: .08em;
 }
 
 h4 {
     font-size: 1.5rem;
+    margin-bottom: var(--space-sm);
 }
 
 a {
     text-decoration: none;
+    color: #1789FC;
+}
+
+a:visited {
+    color: inherit;
 }
 
 a:hover {
@@ -61,11 +68,11 @@ li {
 }
 
 .visible-link {
-    color: inherit;
+    color: #1789FC;
     font-size: inherit;
     text-decoration: underline;
 }
 
 .visible-link:hover {
-    color: blue;
+    color: #1789FC;
 }

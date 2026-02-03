@@ -1,13 +1,12 @@
-.button {
+.button,
+.contact-form button {
     display: inline-block;
     text-decoration: none;
-    font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
     font-family: var(--font-body);
     border-radius: 100px;
     border: 1px solid black;
-    padding: var(--space-md) var(--space-lg);
     width: fit-content;
     background-color: black;
     color: white;
@@ -15,17 +14,34 @@
     text-align: center;
     transition: all 0.2s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-    margin-bottom: var(--space-lg);
+    margin: var(--space-md) var(--space-lg);
 }
 
-.button:visited {
+.button {
+    font-size: 1.6rem;
+    padding: var(--space-md) var(--space-lg);
+}
+
+.contact-form button {
+    font-size: 1.2rem;
+    padding: var(--space-sm) var(--space-lg);
+}
+
+.button:visited,
+.contact-form button:visited {
     color: white;
 }
 
-.button:hover {
+.button:hover,
+.contact-form button:hover {
     background-color: white;
     color: black;
     text-decoration: none;
     border: 1px solid black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;    
 }
 

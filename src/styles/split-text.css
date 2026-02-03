@@ -1,18 +1,19 @@
 .split-char {
-    font-size: 8em;
+    font-size: 9em;
+    /* Old font size = 8em */
     /* maybe add important! here if needed; right now it's working fine without it */
     font-family: var(--font-hearder);
-    letter-spacing: -0.03em;
+    /* letter-spacing: -0.03em; */
     color: #ffffff;
 }
 
+
 @media (max-width: 768px) {
     .split-char {
-        font-size: 4em;
-        height: 1em;
+        font-size: 4.6em;
     }   
-    
+
     h1 {
-        font-size: 4em;
+        font-size: 4rem;
     }
 }

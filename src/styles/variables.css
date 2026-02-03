@@ -1,13 +1,14 @@
-/* src/styles/variables.css */
-
 :root {
     --font-header: "obviously-narrow", sans-serif;
     --font-body: "obviously", sans-serif;
-
+    
+    --font-header2: "crumb", sans-serif;
+    --font-body2: "arial", sans-serif;
+    
     /* Spacing */
     --space-xs: 0.25rem;
     --space-sm: 0.5rem;
     --space-md: 1rem;
-    --space-lg: 2rem;
+    --space-lg: 1.8rem;
     --space-xl: 4rem;
 }
