@@ -1,17 +1,30 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/sc-favicon-underline.png" />
     <!-- original fonts below -->
     <!-- <link rel="stylesheet" href="https://use.typekit.net/qqu3wnp.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smith Class of 2016</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <!-- Before npm run build, comment out the line above since Vite will take care of that line automatically. If the line above is present during build, it'll break. -->
-     <!-- okay maybe leave this line always because that was just for github pages?? tbd. but it's working while uncommented out... -->
-  </body>
+    <!-- okay maybe leave this line always because that was just for github pages?? tbd. but it's working while uncommented out... -->
+
+    <!-- Added to make sure that the netlify form is detected at build time. The contact page is rendered by the client, not at build, so it isn't detected at build. Now that I added the code below, the form is detected at build time (because index.html is detected at build time.) -->
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
+
+
+</body>
+
 </html>
