@@ -95,6 +95,7 @@ iframe {
 }
 
 .detail-card p,
+.detail-card a,
 .role-card p {
     margin: 0;
     margin-bottom: var(--space-md);

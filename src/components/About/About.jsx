@@ -28,7 +28,7 @@ const members = [
         image: "anna-steckel-1",
         name: "Anna Steckel",
         pronouns: "she/they",
-        position: "Reunion Chair",
+        position: "Reunion Chair & Web Developer",
         house: "Gardiner",
         major: "Psychology & Jewish Studies",
         activities: "Smiffenpoofs, SC Jewish Community, Gold Key, House Council",

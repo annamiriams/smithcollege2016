@@ -11,11 +11,6 @@ const Footer = () => {
         <>
             <section className='footer'>
 
-                {/* Static h1 if animation doesn't work */}
-                {/* <div>
-                    <h1>See y'all in noho</h1>
-                </div> */}
-
                 <SplitText
                     text="See y'all in noho"
                     tag="h1"
@@ -40,6 +35,11 @@ const Footer = () => {
                             <li><Link to='/class-cabinet'>Class Cabinet</Link></li>
                             <li><Link to='/contact'>Contact</Link></li>
                         </ul>
+                        <div className="instagram-icon"  style={{ marginTop: '20px' }}>
+                        <a href='https://www.instagram.com/smithcollegeclassof2016' target="_blank" rel="noreferrer" aria-label="Instagram">
+                            <FontAwesomeIcon icon={faInstagram} style={{ color: "#ffffff", fontSize: "2em" }} />
+                        </a>
+                        </div>
                     </div>
                     <div>
                         <h3>Reunion Dates</h3>
@@ -47,14 +47,13 @@ const Footer = () => {
                     </div>
                     <div>
                         <h3>Register</h3>
-                        <p>More details <Link to='/faq' style={{ color: "#1789FC" }}>here</Link>.</p>
+                        <p>Registration is officially open!</p>
+                        <p>More details can be found <Link to='/faq' style={{ color: "#1789FC" }}>here</Link>.</p>
                     </div>
                 </div>
 
-                <div className="instagram-icon">
-                    <a href='https://www.instagram.com/smithcollegeclassof2016' target="_blank" rel="noreferrer" aria-label="Instagram">
-                        <FontAwesomeIcon icon={faInstagram} style={{ color: "#ffffff", fontSize: "2em" }} />
-                    </a>
+                <div style={{ fontStyle: 'italic', marginTop: '40px' }}>
+                    <a href="https://annasteckel.com/" target="_blank">Designed & developed by Anna Steckel.</a>
                 </div>
             
             </section>

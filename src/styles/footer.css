@@ -17,9 +17,9 @@
     color: white;
 }
 
-.instagram-icon {
+/* .instagram-icon {
     margin-bottom: var(--space-md);
-}
+} */
 
 @media (max-width: 768px) {
     .footer h1 {

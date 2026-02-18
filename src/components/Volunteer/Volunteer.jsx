@@ -53,7 +53,7 @@ const Volunteer = () => {
                     </section>
 
                     <section className="volunteer-cta">
-                        <p>Interested in joining <Link to="/about" className="visible-link">the team</Link>?</p>
+                        <p>Interested in joining <Link to="/class-cabinet" className="visible-link">the team</Link>?</p>
                         <Link className="button" to="/contact">Reach Out</Link>
                     </section>
 
